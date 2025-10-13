@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Technical Director</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <div class="hero__content">
+        <p class="hero__overline">- Form Technical Director TVRI KALIMANTAN UTARA -</p>
+        <h1 class="hero__title">
+          Satu portal untuk Panduan, Formulir, dan Hasil Technical Director.
+        </h1>
+        <p class="hero__subtitle">
+          Form kerja Technikal Director: baca panduan, isi form sesuai jadwal,
+          dan cek rangkuman hasil di satu tempat yang mudah diakses kapan pun.
+        </p>
+        <div class="hero__actions">
+          <a class="cta-button" href="#panduan">Panduan</a>
+          <a class="cta-button cta-button--secondary" href="#form">Form</a>
+          <a class="cta-button cta-button--outline" href="#hasil">Hasil</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="panduan" class="section section--light">
+        <div class="section__header">
+          <h2>Panduan Pengisian</h2>
+          <p>
+            Ikuti langkah berikut setiap kali mengisi Form Technical Director
+            agar data siaran konsisten dan mudah ditelusuri.
+          </p>
+        </div>
+        <div class="section__quick-link">
+          <a
+            class="ghost-pill"
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Buka Panduan Lengkap
+          </a>
+        </div>
+
+        <div class="guides">
+          <article class="guide-card">
+            <header>
+              <span class="guide-card__step">Langkah 1</span>
+              <h3>Data Petugas &amp; Jadwal</h3>
+            </header>
+            <ul>
+              <li>Pilih nama petugas TD yang bertugas.</li>
+              <li>Tentukan tanggal siaran yang sedang dilaporkan.</li>
+              <li>
+                Isi waktu awal dan akhir siaran mengikuti rundown resmi.
+              </li>
+              <li>
+                Pilih acara siaran yang dibawakan (contoh: Kalimantan Utara Hari
+                Ini).
+              </li>
+            </ul>
+          </article>
+
+          <article class="guide-card">
+            <header>
+              <span class="guide-card__step">Langkah 2</span>
+              <h3>Detail Teknis Siaran</h3>
+            </header>
+            <ul>
+              <li>
+                Pilih sumber siaran. (Untuk acara Kalimantan Utara Hari Ini, pilih
+                <strong>Live Studio 2</strong>).
+              </li>
+              <li>
+                Tandai jenis gangguan yang terjadi selama siaran (Jaringan,
+                Software, Hardware, Audio, Video, atau Tidak Ada).
+              </li>
+              <li>
+                Pilih sumber Audio. (Kalimantan Utara Hari Ini menggunakan
+                <strong>Studio 2</strong>).
+              </li>
+              <li>
+                Pilih sumber Video. (Kalimantan Utara Hari Ini menggunakan
+                <strong>Studio 2</strong>).
+              </li>
+            </ul>
+          </article>
+
+          <article class="guide-card">
+            <header>
+              <span class="guide-card__step">Langkah 3</span>
+              <h3>Pencatatan Gangguan</h3>
+            </header>
+            <ul>
+              <li>
+                Tulis keterangan singkat bila terjadi gangguan saat siaran, atau
+                isi “Tidak ada” jika berjalan lancar.
+              </li>
+              <li>
+                Lampirkan bukti pendukung (foto, video, capture log) dengan
+                maksimal 5 file &amp; ukuran 10 MB per file.
+              </li>
+              <li>
+                Pastikan seluruh isian sudah lengkap sebelum menekan tombol
+                kirim.
+              </li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="form" class="section section--light">
+        <div class="section__header">
+          <h2>Akses Form</h2>
+          <p>
+            Klik tombol di bawah ini untuk membuka Form Technical Director dan
+            isi sesuai panduan.
+          </p>
+        </div>
+        <div class="section__content">
+          <div class="link-card">
+            <a
+              class="link-card__button link-card__button--form"
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Buka Form TD
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section id="hasil" class="section section--light">
+        <div class="section__header">
+          <h2>Lihat Hasil</h2>
+          <p>
+            Dapatkan rangkuman laporan untuk evaluasi siaran dan monitoring
+            performa tim.
+          </p>
+        </div>
+        <div class="section__content">
+          <div class="link-card">
+            <a
+              class="link-card__button link-card__button--hasil"
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Buka Rekap Hasil
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>
+        &copy; <span id="year"></span> Kumuda Experience x Tim Teknik TVRI Kalimantan Utara
+      </p>
+    </footer>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>

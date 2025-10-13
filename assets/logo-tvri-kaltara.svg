@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 140" role="img" aria-labelledby="title">
+  <title>Logo TVRI Kalimantan Utara</title>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1b2f5b" />
+      <stop offset="100%" stop-color="#0d1d3c" />
+    </linearGradient>
+  </defs>
+  <rect x="0" y="80" width="360" height="12" fill="#1b2f5b" opacity="0.12" />
+  <g transform="translate(24 20)">
+    <circle cx="156" cy="50" r="50" fill="url(#bg)" />
+    <path
+      d="M0 16h46v18H30v60H16V34H0V16zm69 0h18l26 78H99l-4-13H71l-4 13H49l20-62-8-16zm15 48h24l-12-38h-1l-11 38zm72-48h15v78h-15V59h-25v35h-15V16h15v31h25V16z"
+      fill="#1b2f5b"
+    />
+    <path
+      d="M156 16c24.3 0 44 19.7 44 44s-19.7 44-44 44-44-19.7-44-44 19.7-44 44-44zm-15 23v41h12c13 0 21-7.7 21-20.7 0-12.6-8.3-20.3-21.8-20.3H141zm29.3 0v41h18.7c11.2 0 19-7.9 19-20.7 0-12.1-7.3-20.3-19.2-20.3h-18.5z"
+      fill="#fff"
+    />
+  </g>
+  <text
+    x="180"
+    y="128"
+    font-family="Poppins, Arial, sans-serif"
+    font-weight="600"
+    font-size="24"
+    text-anchor="middle"
+    fill="#1b2f5b"
+  >
+    KALIMANTAN UTARA
+  </text>
+</svg>
